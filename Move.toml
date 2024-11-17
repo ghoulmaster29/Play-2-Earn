@@ -1,0 +1,15 @@
+[package]
+name = "Play_2_Earn"
+version = "1.0.0"
+authors = []
+
+[addresses]
+Play2Earn = '0x686c3f93ed7bd0611d07bd54c26e12542b86e1d580fc1b4df22ee34ad1ac846b'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
